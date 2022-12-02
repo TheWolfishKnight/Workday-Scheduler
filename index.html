@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container" id="btn-container">
+      <div class="row">
+        <div class="time-block">6 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="sixAm" class="textInput" name="sixAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">7 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="sevenAm" class="textInput" name="sevenAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">8 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="eightAm" class="textInput" name="eightAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">9 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="nineAm" class="textInput" name="nineAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">10 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="tenAm" class="textInput" name="tenAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">11 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="elevenAm" class="textInput" name="elevenAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">12 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="twelvePm" class="textInput" name="twelvePm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">1 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="onePm" class="textInput" name="onePm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">2 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="twoPm" class="textInput" name="twoPm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">3 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="threePm" class="textInput" name="threePm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">4 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="fourPm" class="textInput" name="fourPm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">5 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="fivePm" class="textInput" name="fivePm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">6 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sixAm"></label>
+          <input type="text" id="sixAm" class="textInput" name="sixPm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">7 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="sevenPm"></label>
+          <input type="text" id="sevenPm" class="textInput" name="sevenPm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">8 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="eightPm"></label>
+          <input type="text" id="eightPm" class="textInput" name="eightPm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">9 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="ninePm"></label>
+          <input type="text" id="ninePm" class="textInput" name="ninePm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">10 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="tenPm"></label>
+          <input type="text" id="tenPm" class="textInput" name="tenPm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">11 P.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="elevenPm"></label>
+          <input type="text" id="elevenPm" class="textInput" name="elevenPm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">12 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="twelveAm"></label>
+          <input type="text" id="twelveAm" class="textInput" name="twelveAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">1 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="oneAm"></label>
+          <input type="text" id="oneAm" class="textInput" name="oneAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">2 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="twoAm"></label>
+          <input type="text" id="twoAm" class="textInput" name="twoAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">3 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="threeAm"></label>
+          <input type="text" id="threeAm" class="textInput" name="threeAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">4 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="fourAm"></label>
+          <input type="text" id="fourAm" class="textInput" name="fourAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <div class="time-block">5 A.M.</div>
+        <form class="textarea" action="/action_page.php">
+          <label for="fiveAm"></label>
+          <input type="text" id="fiveAm" class="textInput" name="fiveAm" />
+        </form>
+        <button class="saveBtn">Save</button>
+      </div>
+
+      <!-- Timeblocks go here -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
