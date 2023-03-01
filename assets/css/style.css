@@ -4,6 +4,12 @@ body {
   width: 100%;
 }
 /* Making sure the app always fits the page. */
+body {
+  background-color: #4ddd71;
+}
+.text-green {
+  color: #419260;
+}
 
 * {
   margin: 0;
@@ -86,4 +92,7 @@ body {
   left: 40%;
   bottom: 124%;
   transform: rotate(-30deg);
+}
+.timecolor {
+  background-color: #3afa84;
 }
